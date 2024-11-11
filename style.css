@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width:35% ;
+    list-style: none;
+    font-weight: bold;
+    margin-right: 80px;
+    padding-top: 2px;
+}
+.logo{
+   font-size: 20px;
+    font-weight:bold ;
+}
+.logo1{
+    height: 30px;
+    width: 30px;
+   position: relative;
+   top: 7px;
+   
+}
+.logoo{
+    margin-left: 100px;
+}
+.container{
+    background-image: url(task6/WhatsApp\ Image\ 2024-11-01\ at\ 5.38.38\ PM.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 45%;
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+}
+.content p{
+    padding: 10px;
+}
+.buttonn{
+    margin: 5px;
+    cursor: pointer;
+}
+.button1{
+    padding: 12px 23px;
+    background-color: rgb(255, 186, 57);
+    border: none;
+    cursor: pointer;
+}
+.button2{
+    padding: 12px 18px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+.mid1,.mid2,.mid3{
+    text-align: center;
+    height: 250px;
+    width: 22%;
+    padding: 10px;
+    margin: 0 40px;
+    margin-top: 50px;
+}
+.content2 h3{
+    padding: 10px;
+}
+.content2 p{
+    padding: 10px;
+}
+
+.content2 i{
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    background-color:rgb(255, 186, 57) ;
+    border-radius: 30px;
+    padding: 20px 0;
+    
+}
+.section2{
+    background-color: whitesmoke;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo1{
+    height: 500px;
+    width: 500px;
+    border-radius: 10PX;
+}
+.web{
+    width: 42%;
+    padding: 40px;
+}
+.web h2{
+    font-size: 40px;
+}
+.web p{
+    padding: 20px 0;
+}
+.section3{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button4{
+    padding: 12px 23px;
+    background-color: rgb(255, 186, 57);
+    border: none;
+    cursor: pointer;
+}
+.we{
+    color: white;
+    width: 42%;
+    padding: 40px;
+}
+.we h2{
+    font-size: 40px;
+}
+.we p{
+    padding: 20px 0;
+}
+.section5{
+    background-color: white;
+    height: 700px;
+}
+.feat{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 190px 40px 190px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+.photo2{
+    height: 555px;
+    width: 555px;
+    margin: 0px 15px;
+    border-radius: 10PX;
+}
+.button3{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+}
+.section6{
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo3{
+    width: 22%;
+    align-items: center;
+    margin: 30px;
+}
+.photo3 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-left:100px ;
+}
+.pp{
+    padding: 20px 0;
+}
+.ppp{
+    margin-left:110px ;
+}
+.section7{
+    background-color: black;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 50%;
+    text-align: center;
+}
+.footer h1{
+    color: white;
+    font-size: 50px;
+}
+.footer p{
+    color: white;
+    padding: 20px;
+}
+button{
+    transition: all 0.9s ease;
+    cursor: pointer;
+    border-radius: 5PX;
+}
+button:hover{
+    transition: 500ms;
+    transform: translatey(15px);
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: solid rgb(255, 186, 57);
+}
+.button3:hover{
+    transition: 500ms;
+    transform: translatey(15px);
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: solid rgb(255, 186, 57);
+    color: black;
+}
+.button2:hover{
+    transition: 500ms;
+    transform: translatey(15px);
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: solid rgb(255, 186, 57);
+    color: black;
+}
+.button4:hover{
+    transition: 500ms;
+    transform: translatey(15px);
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: solid rgb(255, 186, 57);
+    color: white;
+}
+
+.section6 img{
+    transition: 0.5s;
+}
+.section6 img:hover{
+    transform: scale(1.1);
+}
+.section2,.section3,.section4, img{
+    transition: 0.6s;
+}
+.section2,.section3,.section4, img:hover{
+    transform: translateY(-15px);
+}
+@media (max-width:600px){
+    .navbar{
+        display: grid;
+    }
+    ul{
+        width:100% ;
+        margin-left: 0px;
+        padding: 10px 0;
+    }
+    .logoo{
+        margin-left: 150px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 45px;
+    }
+    .content2{
+        height: 800px;
+        display:grid;
+        
+    }
+    .mid1,.mid2,.mid3{
+        width: 100%;
+        margin: 0;
+    }
+    .section2{
+        display: grid;
+        height: 750px;
+    }
+    .photo1{
+        height: 350px;
+        width: 350px;
+        margin-left: 20px;
+    }
+    .web{
+        width: 100%;
+    }
+    .section3{
+        display: grid;
+        height: 750px;
+    }
+    .section4{
+        display: grid;
+        height: 750px;
+    }
+    .we{
+        width: 100%;
+    }
+    .feat{
+        margin: 40px 10px 40px 10px;
+    }
+    .section5{
+        height: 870px;
+    }
+    .photos{
+        display: grid;
+        
+    }
+    .photo2{
+        height: 350px;
+        width: 350px;
+        margin: 15px 0px;
+    }
+    .section6{
+        height: 650px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .photo3{
+        width: 90%;
+        align-items: center;
+        margin: 16px;
+    }
+    .photo3 img{
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        margin-left:20px ;
+    }
+    .ppp{
+        margin-left:30px;
+    }
+    .sui{
+        width: 100%;
+        margin-left: 110px;
+    }
+    .section7{
+        height: 450px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+
+}
